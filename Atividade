@@ -1,0 +1,27 @@
+1.
+
+O CROSS JOIN juntas as informacoes das tabelas criando diversas combinacoes entre elas,
+se possuimos tres camisas e dois shorts o CROSS JOIN mostrara todas as combinacoes
+entre camisas e shorts.
+
+2. 
+
+Nao é preciso usar o ON o CROSS JOIN pode ser chamado apenas usando o Cross join
+para relacionar as tabelas
+
+select *
+from tabela 1 CROSS JOIN tabela 2;
+
+3. 
+
+6 linhas 
+
+4.
+
+SELECT alunos.nome, cursos.curso
+FROM cursos CROSS JOIN alunos;
+
+5.
+
+4 linhas, Porque ele relaciona as tabelas alunos e curso criando todas as combinacoes entre elas,
+como cada tabela possui 2 registros entao as combinacoes possiveis entre elas seria 4
